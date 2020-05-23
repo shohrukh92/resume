@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Merriweather', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+.page {
+  position: relative;
+  width: 230mm;
+  /* height: 325mm; */
+  margin: 0 auto;
+  padding: 5mm 8mm;
+  background-color: #fafafa;
+}
+
+.heading {
+  color: #005c85;
+}
+
+.summary {
+  padding: 3mm 0 5mm;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.main {
+  display: flex;
+}
+
+.main__left {
+  width: 80mm;
+}
+
+.main__left section {
+  margin-bottom: 2em;
+}
+
+.main__right {
+  width: calc(100% - 60mm);
+  margin-left: 15mm;
+}
+
+.section {
+  margin-bottom: 1.2rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.section__title {
+  margin-bottom: 0.5em;
+  padding: 0.1em 0;
+  border-bottom: 0.05rem solid #d5d6d6;
+  color: #005c85;
+}
+
+.section__content {
+  position: relative;
+  font-size: 0.85rem;
+}
+
+.section__entry {
+  margin-bottom: 1em;
+}
+
+.section__entry:last-child {
+  margin-bottom: 0;
+}
+
+.personal-info-title {
+  color: #000;
+  margin-bottom: 0.3em;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.skill-item__levels > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 14px;
+  height: 14px;
+  margin: 0 0.1em;
+  border: 1px solid #0075a7;
+  border-radius: 50%;
+}
+
+.skill-item__levels.level1 > div:nth-child(-n + 1),
+.skill-item__levels.level2 > div:nth-child(-n + 2),
+.skill-item__levels.level3 > div:nth-child(-n + 3),
+.skill-item__levels.level4 > div:nth-child(-n + 4),
+.skill-item__levels.level5 > div:nth-child(-n + 5) {
+  background-color: #0075a7;
+}
+
+.timeline {
+  display: flex;
+}
+
+.timeline__date {
+  flex-grow: 1;
+  width: 18mm;
+  line-height: 1.6;
+}
+
+.timeline__content {
+  width: calc(100% - 18mm);
+  padding: 0.1em 0 1.6em 1.2em;
+  border-left: 1px dashed gray;
+}
+
+.timeline:last-child .timeline__content {
+  padding: 0 0 0.5em 1.2em;
+}
+
+.timeline__title {
+  margin-bottom: 0.3em;
+}
+
+.timeline__title > span:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.timeline__title > span:nth-child(2) {
+  padding-left: 0.4em;
+  font-size: 0.9rem;
+  color: #515151;
+  font-weight: 500;
+}
+
+.timeline__list {
+  margin-left: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+.timeline__list li {
+  line-height: 1.4;
+  padding: 0.05em 0;
+}
+
+.timeline__subtitle {
+  font-style: italic;
+  margin: 0.35em 0 0.25em 0;
+}
+
+#personal-info {
+  width: 100%;
+  margin: 1em 0;
+}
+
+#personal-info .section__content {
+  display: flex;
+  justify-content: space-between;
+}

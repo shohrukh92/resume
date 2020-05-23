@@ -1,0 +1,18 @@
+Shohrukh Davlatov
+Belarus, Minsk
+[phone number]
+[email]
+
+[Date]
+To Whom It May Concern.
+
+Hello,
+I’m writing to apply for the [Position Name]. I have more than five years of experience as a Software Engineer, mainly focusing on Front-end technologies. Your position description perfectly matches my experience since I’ve been working mostly with building Enterprise Web Apps (using Angular, React frameworks) and data visualization tools (d3js, gojs, recharts). I’m passionate about writing clean and high-quality code by following best Software Design Patterns.
+I have strong Mathematical background: graduated from Moscow State University with Bachelor degree (Applied Mathematics and Informatics) and now I am finishing my PhD degree in Minsk, Belarus. In order to be in a “good shape” I do regularly take part in different online Programming Contest Challenges and also write research articles. I am interested in analyzing and visualizing information, as well as finding hidden patterns in data-sets. Since my strongest technical stack is JS/HTML/CSS, I’ve completed several online courses to learn some new tools for data analysis (such as Python Pandas, Scikit-learn, Pytorch framework).
+During my time at different outsource and startup IT-companies, I had an opportunity to work in many positions: Front-end developer, Back-end developer, Team Leader, UX/UI designer, Mentoring interns and Interviewer. I was part of many strong and multi-cultural teams where we built several interesting projects: Business Intelligence apps, Banking Systems, Educational platforms etc. But one of my favorite projects which I very proud of is Online COVID-19 Tracking Dashboard for Factories in Southeast Asian countries. The main idea of the project is to protect lives and keep workers safe by implementing vital health and safety guidelines.
+More details about my education, experience and technology stack you can find in my CV. Thank you for your time and consideration.
+Please feel free to email me or call my cell phone. I hope to hear from you soon.
+
+Sincerely,
+Shohrukh Davlatov
+
